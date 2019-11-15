@@ -1,14 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import axios from 'axios'
-import {Route, NavLink} from 'react-router-dom'
 import {axiosWithAuth} from "../utils/axiosWithAuth"
 
 function JokesList() {
 
-    const [user, setUser] = useState({
-      username: "Mikey",
-      password: "fresh",
-    })
     const [jokesList, setJokesList] = useState([])
 
     useEffect(() => {

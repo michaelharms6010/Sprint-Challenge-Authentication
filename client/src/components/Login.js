@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import axios from 'axios'
-import {Route, NavLink} from 'react-router-dom'
 
 function Login(props) {
 
@@ -8,7 +7,6 @@ function Login(props) {
       username: "",
       password: "",
     })
-    const [userList, letUserList] = useState([])
 
     const handleChange = e => {
         setUser({
@@ -19,7 +17,6 @@ function Login(props) {
 
     const handleSubmit = e => {
         e.preventDefault();
-        const {username, password} = user;
         axios.post('http://localhost:3300/api/auth/login', user)
         .then(res => {
             console.log("login post response" , res);

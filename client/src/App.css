@@ -58,7 +58,7 @@ form button {
   justify-content:space-around;
 }
 .navigation button {
-  width: 200px;
+  width: 25vw;
   height:3rem;
   border: none;
   border-radius:15px;
