@@ -1,0 +1,103 @@
+html {
+  background:turquoise;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+form {
+  margin: 5% auto;
+  display:flex;
+  flex-direction:column;
+  width: 50%;
+  padding:2%;
+  background: rebeccapurple;
+  align-items:center;
+}
+
+input {
+  margin:10px 0px;
+  width:60%;
+}
+
+form button {
+  width: 200px;
+  height:3rem;
+  border: none;
+  border-radius:15px;
+  color:rgb(5, 119, 107);
+  background:white;
+  font-weight:bold;
+  font-size:2rem;
+}
+
+.navigation{
+  margin: 0 auto;
+  width:80%;
+  display:flex;
+  justify-content:space-around;
+}
+.navigation button {
+  width: 200px;
+  height:3rem;
+  border: none;
+  border-radius:15px;
+  color:rebeccapurple;
+  background:white;
+  font-weight:bold;
+  font-size:2rem;
+}
+
+button {
+  margin-top:10px;
+}
+
+.joke-card {
+  background:rebeccapurple;
+  color:white;
+  width:30%;
+  border-radius: 20px;
+  margin: 2% auto;
+  text-align:center;
+  padding:20px;
+  
+}
+
+h1 {
+  text-align:center;
+}
+
+.welcome {
+  width:80%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin: 20vh auto;
+}
+
+.welcome h1 {
+  background: rebeccapurple;
+  color:white;
+  border-radius:5px;
+  padding:20px;
+}
